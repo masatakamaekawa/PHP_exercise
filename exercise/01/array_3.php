@@ -1,7 +1,5 @@
 <?php
 
-use Ramsey\Uuid\Exception\RandomSourceException;
-
 $nums = [[1,2], [3, 4], [5,6,7]];
 
 echo $nums [1][1] . '<br>';

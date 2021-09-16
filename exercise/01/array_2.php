@@ -1,13 +1,5 @@
 <?php
 
-$coffee = [
-    'カフェオレ',
-    15,
-    [
-        'カフェラテ',
-        'カプチーノ',
-    ]
-];
+$coffee = ['カフェオレ', 'カフェラテ', 'カプチーノ'];
 
-var_dump($coffee); 
-
+echo var_dump($coffee); 
