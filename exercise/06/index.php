@@ -2,9 +2,13 @@
 
 // 以下にCarクラスを定義して、当プログラムを実行した時にエラーがでないようにして下さい。
 class Car{
+    public $Name;
+    public $Number;
+    public $Color;
 
     public function __construct($Name,$Number,$Color)
     {
+
         $this->Name = $Name;
         $this->Number = $Number;
         $this->Color = $Color;
